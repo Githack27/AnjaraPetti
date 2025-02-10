@@ -1,0 +1,44 @@
+.nav-item{
+  font-size: large;
+  padding-right: 2rem;
+}
+
+.nav-link{
+  color: white;
+}
+
+nav{
+  height: 90vh;
+  background-image: url("/Images/Home-bg-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-body-image{
+  border-radius: 150px;
+}
+
+.pill-bg1 {
+  position: absolute;
+  top: 45%;
+  right: 270px;
+  transform: translateY(-50%);
+  width: 210px;
+  height: 350px;
+  background-color: #eb3b5a;
+  border-radius: 80px 120px 120px 80px;
+  z-index: -1;
+}
+
+.pill-bg2 {
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  transform: translateY(-50%);
+  width: 210px;
+  height: 350px;
+  background-color: #eb3b5a;
+  border-radius: 80px 120px 120px 80px;
+  z-index: -1;
+}

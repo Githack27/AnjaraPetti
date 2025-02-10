@@ -8,9 +8,9 @@ import { PartnerComponent } from './Pages/partner/partner.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: '/shop', component: ShopComponent},
-  { path: '/cart', component: CartComponent},
-  { path: '/authentication', component: AuthComponent},
-  { path: '/career', component: CareerComponent},
-  { path: '/partners', component: PartnerComponent}
+  { path: 'shop', component: ShopComponent},
+  { path: 'cart', component: CartComponent},
+  { path: 'authentication', component: AuthComponent},
+  { path: 'career', component: CareerComponent},
+  { path: 'partners', component: PartnerComponent}
 ];
