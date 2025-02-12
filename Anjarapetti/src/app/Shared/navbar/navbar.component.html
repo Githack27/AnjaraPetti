@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-transparent flex-column align-items-start fixed-top px-lg-5 pb-5">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="">
       <img src="/Images/LOGO.png" alt="AnjaraPetti" width="200" height="75">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -8,7 +8,7 @@
     </button>
     <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <a class="offcanvas-title" href="#">
+        <a class="offcanvas-title" href="">
           <img src="/Images/LOGO.png" alt="AnjaraPetti" width="150" height="60">
         </a>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -16,26 +16,23 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-center py-4 flex-grow-1 fw-bold">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" routerLink="/shop" routerLinkActive="active">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" routerLink="/career" routerLinkActive="active">Career</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Career</a>
+            <a class="nav-link" routerLink="/news" routerLinkActive="active">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Partner</a>
+            <a class="nav-link" routerLink="/partner" routerLinkActive="active">Partner</a>
           </li>
         </ul>
         <div class="py-4 m-0">
-          <button class="btn btn-primary">Login</button>
+          <button class="btn btn-primary" (click)="navigateToLogin()">Login</button>
         </div>
       </div>
     </div>

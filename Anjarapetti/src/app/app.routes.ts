@@ -5,6 +5,8 @@ import { CartComponent } from './Pages/cart/cart.component';
 import { AuthComponent } from './Pages/auth/auth.component';
 import { CareerComponent } from './Pages/career/career.component';
 import { PartnerComponent } from './Pages/partner/partner.component';
+import { ContactComponent } from './Pages/contact/contact.component';
+import { NewsComponent } from './Pages/news/news.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -12,5 +14,7 @@ export const routes: Routes = [
   { path: 'cart', component: CartComponent},
   { path: 'authentication', component: AuthComponent},
   { path: 'career', component: CareerComponent},
-  { path: 'partners', component: PartnerComponent}
+  { path: 'partners', component: PartnerComponent},
+  { path: 'contact', component: ContactComponent},
+  { path: 'news', component: NewsComponent},
 ];
